@@ -1,6 +1,7 @@
 // alert('RERE');
 
 
+
 function navbarCollapse() {
   var x = document.getElementById("navbar");
   if (x.className.indexOf("w3-show") == -1) {

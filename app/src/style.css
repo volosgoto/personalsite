@@ -1,0 +1,22 @@
+body {
+  /* background-color:  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid black;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: darkgrey;
+}
