@@ -10,15 +10,22 @@ a {
 }
 
 a:hover {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  color: green;
 }
+
+a:hover h1{
+  /* border-bottom: 1px solid black; */
+  color:violet
+}
+ 
  
 a:link {
   color: black;
 } 
 
 a:visited {
-  color: darkgrey;
+  color: darkslategrey;
 }
 
 
@@ -32,4 +39,8 @@ a:visited {
   flex-basis: 100%;
   height: 100px;
                
+}
+
+.w3-card-picture {
+  width: 100%
 }
