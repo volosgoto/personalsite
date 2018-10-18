@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/(app/public)
+RewriteRule ^components/(.*)$ /app/src/components/$1 [L]
+RewriteRule ^css/(.*)$ app/css/$1 [L]
+RewriteRule ^fonts/(.*)$ app/src/fonts/$1 [L]
+RewriteRule ^js/(.*)$ app/src/$1 [L]
+RewriteRule ^images/(.*)$ app/src/images/$1 [L]
+RewriteRule (.*) /app/public/$1
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /app/public/index.html
