@@ -116,16 +116,18 @@ a:visited {
 
   
  
-  border: 1px solid red
+  /* border: 2px solid teal */
 }
 
 .footer-box{
   display: block;
   flex: 1; 
-  border: 1px solid green;
+  /* border: 1px solid green; */
  
 }
 
 .copywrite{
   font-size: 12px;
 }
+
+.icon-blue {color: teal}
