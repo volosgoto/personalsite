@@ -7,21 +7,30 @@ body {
 a {
   font-size: 16px;
   text-decoration: none;
+  color: black
 
 }
 
-nav a.w3-button {
+nav a.w3-button
+{
   color:teal;
 }
 
-a:hover i
-{
+
+
+a:hover i {
   border-bottom: 2px solid teal;
   border-bottom-style: groove;
   padding-bottom: 5px;
   color: teal;
 }
- 
+
+span a:hover  {
+  border-bottom: 2px solid teal;
+  border-bottom-style: groove;
+  padding-bottom: 5px;
+  color: teal;
+}
  
 /* a:link {
   color: black;
