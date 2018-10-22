@@ -1,0 +1,15 @@
+body {
+  background-color: magenta;
+}
+
+.resume-container{
+  display: flex;
+
+  border: 1px solid green;
+}
+
+.resume-box-1 {
+  display: box;
+  border: 1px solid red;
+
+}

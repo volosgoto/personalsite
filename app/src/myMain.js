@@ -1,7 +1,3 @@
-// alert('RERE');
-
-
-
 function navbarCollapse() {
   var x = document.getElementById("navbar");
   if (x.className.indexOf("w3-show") == -1) {
@@ -10,3 +6,9 @@ function navbarCollapse() {
       x.className = x.className.replace(" w3-show", "");
   }
 }
+
+
+function sendMail() {
+    location.href = "mailto:office@synproeng.com";
+}
+      
