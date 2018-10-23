@@ -1,5 +1,6 @@
 body {
-  background-color:	#E8E8E8;
+  background-color:	 #DCDCDC;
+  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
 
@@ -74,3 +75,22 @@ li {
   /* border: 3px solid red; */
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    .resume-container{
+      width: 100%;
+      padding-top: 10px;
+      box-shadow: 2px 2px 10px grey;
+      margin: 10px 0px; 
+    }
+    
+    .resume-box-1 {
+      width: 100%;
+    }
+    
+    .resume-box-2 {
+      width: 100%;
+    }
+  }
+
