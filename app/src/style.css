@@ -20,7 +20,7 @@ footer div a i
 
 
 a:hover i {
-  border-bottom: 2px solid teal;
+  border-bottom: 1px solid teal;
   border-bottom-style: groove;
   padding-bottom: 5px;
   color: teal;
@@ -131,3 +131,14 @@ a:visited {
 }
 
 .icon-blue {color: teal}
+
+
+ul.w3-ul.w3-card-4 li{
+  background-color: #E8E8E8;
+}
+
+
+
+ul.w3-ul.w3-card-4 li:hover{
+  background-color: #76B5BB;
+}

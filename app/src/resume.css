@@ -7,7 +7,7 @@ body {
 }
 
 a:hover{
-  background: silver;
+  background: #76B5BB;
 }
 
 h3{
@@ -48,7 +48,7 @@ li {
   align-items: center; */
   justify-content: center;
   align-items: center;
-  background-color: #F0F0F0;
+  background-color: cornsilk;
   width: 595px;
   /* height: 842; */
   padding-top: 10px;
