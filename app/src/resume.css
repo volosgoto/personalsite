@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color:	#E8E8E8;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
 
@@ -44,10 +44,12 @@ li {
   align-items: center; */
   justify-content: center;
   align-items: center;
-  
-  background-color: silver;
+  background-color: #F0F0F0;
   width: 595px;
-  height: 842;
+  /* height: 842; */
+  padding-top: 10px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 20px 0px; 
   
 
   /* border: 3px solid green; */
