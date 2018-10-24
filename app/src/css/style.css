@@ -92,6 +92,12 @@ li {
     .style-box-2 {
       width: 100%;
     }
+
+    #google_map {
+      width: 80%;
+      height: 80%;
+    }
+
   }
 
 
