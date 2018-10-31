@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58b9c692-4ea7-431a-8392-63f024420a4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/public/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/add2basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/add2basket.php" afterDir="false" />
@@ -19,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/eshop/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/eshop/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/eshop/add2basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/eshop/add2basket.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/add2cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/add2cat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/save2cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/save2cat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/secure/create_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/eshop/admin/secure/create_user.php" afterDir="false" />
@@ -54,10 +56,12 @@
     <session id="2026550956">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,12 +77,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="378">
+              <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -120,7 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,11 +153,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../synprotech.loc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -189,16 +193,18 @@
       <updated>1540362156433</updated>
       <workItem from="1540362158010" duration="525000" />
       <workItem from="1540363083526" duration="1710000" />
+      <workItem from="1540895238319" duration="403000" />
+      <workItem from="1540981634940" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2235000" />
+    <option name="totallyTimeSpent" value="2660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-10" width="1366" height="729" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -228,8 +234,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
         </state>
       </provider>
     </entry>
