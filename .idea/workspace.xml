@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58b9c692-4ea7-431a-8392-63f024420a4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/other/bookshop/add2basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/other/bookshop/add2basket.php" afterDir="false" />
@@ -56,12 +55,14 @@
     <session id="2026550956">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -131,24 +132,6 @@
               <item name="personalsite.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="personalsite.loc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="personalsite.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalsite.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalsite.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalsite.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personalsite.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personalsite.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,16 +178,18 @@
       <workItem from="1540363083526" duration="1710000" />
       <workItem from="1540895238319" duration="403000" />
       <workItem from="1540981634940" duration="22000" />
+      <workItem from="1541077346795" duration="270000" />
+      <workItem from="1542005517943" duration="629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2660000" />
+    <option name="totallyTimeSpent" value="3559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-10" width="1366" height="729" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,7 +220,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
         </state>
       </provider>
     </entry>
