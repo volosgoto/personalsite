@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <h1>Personal</h1>
+    <h1>Header</h1>
     <NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink>
     <NavLink to="/resume" activeClassName="is-active">Resume</NavLink>
     <NavLink to="/contact" activeClassName="is-active">Contact</NavLink>
