@@ -1,0 +1,129 @@
+/* MAIN file*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #F1F1F1;
+}
+
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black
+
+}
+
+nav div.w3-bar {
+  height: 40px;
+}
+
+/* a > i.fa.fa-home:hover {
+  text-decoration: none;
+  background-color: red;
+  border-bottom: none;
+} */
+
+
+nav a.w3-button,
+footer div a i
+{
+  color:teal;
+}
+
+
+a:hover i {
+  border-bottom: 1px solid teal;
+  border-bottom-style: groove;
+  padding-bottom: 5px;
+  color: teal;
+}
+
+span a:hover  {
+  /* border-bottom: 2px solid teal; */
+  border-bottom-style: groove;
+  padding-bottom: 5px;
+  color: teal;
+}
+ 
+
+a:visited {
+  color: darkslategrey;
+}
+
+
+
+.w3-card-picture {
+  width: 100%
+}
+
+
+.w3-bar {
+  width: 100%;
+}
+
+
+.outer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row; 
+  padding: 8px 8px;
+  margin: 16px 8px 8px;
+  flex-basis: 100%;
+  /* height: 155px; */
+  height: 55px;
+  /* border: 1px solid red */
+}
+
+
+.box-1 {
+  display: block;
+  /* justify-content: right; */
+  text-align: center;
+  padding-right: 4px;
+  flex: 1 1 100px;
+  flex-basis: 50px;
+  height: 55px;
+  order:1;
+  /* border: 1px solid blue; */
+}
+
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 8px;
+  height: 110px;
+
+ }
+
+.footer-box{
+  display: block;
+  flex: 1; 
+  height: 20px;
+  /* border: 1px solid green; */
+ 
+}
+
+.copywrite{
+  font-size: 12px;
+}
+
+
+.icon-blue {
+  color: teal
+}
+
+
+ul.w3-ul.w3-card-4 li{
+  background-color: #E8E8E8;
+}
+
+
+ul.w3-ul.w3-card-4 li:hover{
+  background-color: #DCDCDC;
+}
