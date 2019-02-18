@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <h1>Header</h1>
     <nav>
       <div className="w3-row">
         <div className="w3-bar w3-black w3-center">
