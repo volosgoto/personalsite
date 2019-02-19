@@ -27,14 +27,16 @@ const Header = () => (
           >
             About
           </Link>
-
-          <a
-            href="javascript:void(0)"
+          <button className="w3-bar-item w3-button w3-teal w3-right w3-hide-large w3-hide-medium"
+            onClick={navbarCollapse}><i className="fa fa-bars" /></button>
+          {/* <a
+            // href="javascript:void(0)"
+            href="#"
             className="w3-bar-item w3-button w3-teal w3-right w3-hide-large w3-hide-medium"
             onClick={navbarCollapse}
-          >
-            <i className="fa fa-bars" />
-          </a>
+          > */}
+          {/* <i className="fa fa-bars" />
+          </a> */}
           <a
             className="icon w3-bar-item w3-button w3-right"
             href="https://join.skype.com/invite/bXprd7VcNmnf"
@@ -108,7 +110,7 @@ const Header = () => (
 
 function navbarCollapse() {
   let x = document.getElementById("navbar");
-  if (x.className.indexOf("w3-show") == -1) {
+  if (x.className.indexOf("w3-show") === -1) {
     x.className += " w3-show";
   } else {
     x.className = x.className.replace(" w3-show", "");

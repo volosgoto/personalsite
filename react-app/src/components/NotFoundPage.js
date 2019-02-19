@@ -11,7 +11,7 @@ const NotFoundPage = () => (
 
     <div className="container">
       <div className="w3-card w3-hover-shadow w3-hover-opacity w3-center w3-margin">
-        <img src={NotFound} width="400px" />
+        <img src={NotFound} width="400px" alt="NotFound" />
       </div>
     </div>
   </div>
