@@ -2,7 +2,6 @@
 
 import React from "react";
 import Mailto from "react-protected-mailto";
-import Iframe from "react-iframe";
 import GoogleMap from "./GoogleMap";
 
 let Contact = props => {
@@ -21,7 +20,7 @@ let Contact = props => {
                 email="volosovich@i.ua"
                 headers={
                   ({ subject: "Question from Volosovich A. personal website" },
-                  { cc: "" })
+                    { cc: "" })
                 }
               />
             </p>
@@ -35,14 +34,13 @@ let Contact = props => {
         </div>
       </div>
       <div className="style-box-1">
-        <GoogleMap />;
+        <GoogleMap />
       </div>
     </div>
   );
 };
 
-// function mailTo() {
-//   return location.href = 'mailto:volosovich@i.ua';
-// }
+
+
 
 export default Contact;

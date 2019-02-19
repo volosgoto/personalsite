@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import AppRouter from './routers/AppRouter'
 import * as serviceWorker from './serviceWorker';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'w3-css/w3.css';
 import './css/style.css';
 import './css/main.css';
 
