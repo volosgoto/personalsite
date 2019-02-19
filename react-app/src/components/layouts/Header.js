@@ -29,6 +29,7 @@ const Header = () => (
           </Link>
 
           <a
+            href="javascript:void(0)"
             className="w3-bar-item w3-button w3-teal w3-right w3-hide-large w3-hide-medium"
             onClick={navbarCollapse}
           >
@@ -116,8 +117,6 @@ function navbarCollapse() {
 
 function hideElem() {
   let x = document.getElementById("navbar");
-
-  //  TODO: fix animation
 
   // x.animate(
   //   [
