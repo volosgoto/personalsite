@@ -2,6 +2,8 @@
 
 import React from "react";
 import Mailto from "react-protected-mailto";
+import Iframe from "react-iframe";
+import GoogleMap from "./GoogleMap";
 
 let Contact = props => {
   return (
@@ -11,7 +13,7 @@ let Contact = props => {
           <h3>ANDRII VOLOSOVYCH</h3>
         </div>
         <div className="style-box-1">
-          <p id="contacts">
+          <div id="contacts">
             Phone: +38 (063) 871-51-51
             <p>
               Email:{" "}
@@ -23,12 +25,7 @@ let Contact = props => {
                 }
               />
             </p>
-          </p>
-
-          {/* react-mailto */}
-          {/* https://www.npmjs.com/package/react-mailto */}
-
-          {/* <a href="location.href = 'mailto:volosovich@i.ua'">E-mail: volosovich@i.ua</a> */}
+          </div>
           <p />
           <a href="https://join.skype.com/invite/bXprd7VcNmnf">
             Skype: volosovich82
@@ -37,13 +34,8 @@ let Contact = props => {
           <p>Phone: +38 (063) 871-51-51</p>
         </div>
       </div>
-
       <div className="style-box-1">
-        {/* Iframe */}
-        {/* https://www.npmjs.com/package/react-iframe */}
-
-        {/* <iframe id="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5082.447956365541!2d30.3780815!3d50.4369286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cb87efca634b%3A0xe934b78f305f2489!2zNTDCsDI2JzExLjAiTiAzMMKwMjInNTcuMCJF!5e0!3m2!1sru!2sua!4v1540384556782" width="595" height="450" frameBorder="0" style="border:0" allowFullScreen>
-        </iframe> */}
+        <GoogleMap />;
       </div>
     </div>
   );
