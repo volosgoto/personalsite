@@ -1,20 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Profile from './Profile';
-import Content from './Content';
-
-
+import Profile from "./Profile";
+import Content from "./Content";
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-
+      <div className="w3-row w3-padding">
         <Profile />
         <Content />
-
-      </React.Fragment>
-
+      </div>
     );
   }
 }
