@@ -20,7 +20,7 @@ let Contact = props => {
                 email="volosovich@i.ua"
                 headers={
                   ({ subject: "Question from Volosovich A. personal website" },
-                    { cc: "" })
+                  { cc: "" })
                 }
               />
             </p>
@@ -39,8 +39,5 @@ let Contact = props => {
     </div>
   );
 };
-
-
-
 
 export default Contact;
