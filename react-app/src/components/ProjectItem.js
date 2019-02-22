@@ -3,35 +3,33 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 
-
 class ProjectItem extends Component {
   state = {
     showProjectInfo: false
   }
 
+  onDeleteClick = id => {
+    console.log(this.props.project.id);
+  };
+
   render() {
+
     const { id, projectName, projectLink, image, linkTitle } = this.props.project;
     const { showProjectInfo } = this.state;
     return (
       <li className="w3-bar">
         <span
-          onClick={true}
+          // onClick={true}
           className="w3-bar-item w3-button w3-white w3-xlarge w3-right"
         >
           <i
             className="fas fa-times"
-            style={{ cursor: 'pointer', float: 'right', color: 'red' }}
-          // onClick={this.onDeleteClick.bind(this, id)}
+            style={{ cursor: 'pointer', float: 'right', color: 'teal' }}
+            onClick={this.onDeleteClick.bind(this, id)}
           />
         </span>
-        {/* <img
-    src={'image'}
-    alt="project title image"
-    className="w3-bar-item w3-circle w3-hide-small"
-    style="width:85px"
-  /> */}
         <div className="w3-bar-item">
-          <span className="w3-large">{projectName}</span>
+          <span className="w3-large">{projectName}&nbsp;</span>
           <i
             onClick={() =>
               this.setState({
@@ -42,9 +40,19 @@ class ProjectItem extends Component {
             style={{ cursor: 'pointer' }}
           />
           <br />
-          <span>
-            <a href={projectLink}>linkTitle</a>
-          </span>
+          {this.state.showProjectInfo && (
+            <div>
+              <span><a href={projectLink}>{linkTitle}</a></span>
+              <img
+                src={image}
+                alt="project title image"
+                className="w3-bar-item w3-circle w3-hide-small"
+                style={{ width: '85px' }}
+              />
+            </div>
+
+          )
+          }
         </div>
       </li>
     )
@@ -52,7 +60,7 @@ class ProjectItem extends Component {
 }
 
 ProjectItem.propTypes = {
-  contact: PropTypes.object.isRequired
+  project: PropTypes.object.isRequired
 };
 
 
