@@ -35,6 +35,7 @@ class Content extends Component {
             <div className="box-1">
               <div>
                 <a
+                  className="w3-button w3-center"
                   href="https://github.com/volosgoto?tab=repositories"
                   target="_blank"
                 >
@@ -44,7 +45,7 @@ class Content extends Component {
             </div>
           </div>
           <div className="w3-center">
-            <p>App List</p>
+            <p>Projects</p>
           </div>
           <ul className="w3-ul w3-card-4">
             {
