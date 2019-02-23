@@ -7,8 +7,11 @@
     "react-dom": "^16.8.2",
     "react-iframe": "^1.4.0",
     "react-protected-mailto": "^1.0.3",
+    "react-redux": "^6.0.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "uuid": "^3.3.2",
     "w3-css": "^4.1.0"
   },
