@@ -2,8 +2,12 @@ import {
   GET_PROJECTS,
 } from '../actions/types';
 
+
 const initialState = {
-  projects: [],
+  projects: [
+    {id: 1,
+    title: 'Test'}
+  ],
 
 };
 
