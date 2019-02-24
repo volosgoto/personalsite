@@ -8,20 +8,26 @@ import Contact from '../components/Contact';
 import About from '../components/About';
 import NotFoundPage from '../components/NotFoundPage';
 
+import { Provider } from 'react-redux';
+import store from '../store';
+
+
 const AppRouter = () => (
-  <BrowserRouter>
-    <div>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/about" component={About} />
-        <Route component={NotFoundPage} />
-      </Switch>
-      <Footer />
-    </div>
-  </BrowserRouter>
+  <Provider store={store}>
+    <BrowserRouter>
+      <div>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={App} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/about" component={About} />
+          <Route component={NotFoundPage} />
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  </Provider>
 );
 
 export default AppRouter;
