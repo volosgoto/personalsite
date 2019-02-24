@@ -1,33 +1,17 @@
 import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
-import GitHubFinderImg from '../images/projects/GitHub Finder.png';
-import AddBookJSMasterImg from '../images/projects/Add Book.png';
-
-import uuid from 'uuid';
-
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import { getProjects } from "../actions/projectActions";
 
 class Content extends Component {
-  state = {
-    projects: [
-      {
-        id: uuid(),
-        projectName: 'GitHub Finder',
-        projectLink: '/app/src/GitHub_Finder-master/index.html',
-        image: GitHubFinderImg,
-        linkTitle: 'Try it'
-      },
-      {
-        id: uuid(),
-        projectName: 'Add_Book_JS-master',
-        projectLink: '/app/src/GitHub_Finder-master/index.html',
-        image: AddBookJSMasterImg,
-        linkTitle: 'Try it'
-      }
-    ]
+
+  componentDidMount() {
+    this.props.getProjects();
   }
 
   render() {
-    const { projects } = this.state;
+    const { projects } = this.props;
     return (
       <React.Fragment>
         <div className="w3-rest w3-container w3-mobile w3-margin-bottom">
@@ -60,4 +44,17 @@ class Content extends Component {
   }
 }
 
-export default Content;
+Content.propTypes = {
+  projects: PropTypes.array.isRequired, // projects from state
+  getProjects: PropTypes.func.isRequired
+};
+
+const mapStateToProps = state => ({
+  projects: state.project_redux.projects  // to call this.state.projects
+  // test: state.project_redux.projects  // to call this.state.test
+});
+
+export default connect(
+  mapStateToProps,
+  { getProjects }
+)(Content);

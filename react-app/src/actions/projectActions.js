@@ -2,7 +2,7 @@ import {
   GET_PROJECTS
 } from './types';
 
-export const getContacts = () => {
+export const getProjects = () => {
   return {
     type: GET_PROJECTS
   }
