@@ -1,19 +1,25 @@
-import GitHubFinderImg from '../images/projects/GitHub Finder.png';
-import AddBookJSMasterImg from '../images/projects/Add Book.png';
+import imagesAsset from '../assets/imagesAsset';
 import { GET_PROJECTS } from '../actions/types';
-
 import uuid from 'uuid';
 
-
-
-
+const {
+  GitHubFinderImg,
+  AddBookJSMasterImg,
+  JSFetchAPIMasterImg,
+  JSFormValidationMasterImg,
+  JSWeatherImg,
+  SynprotechImg,
+  TaskListJSImg,
+  YiiBlogImg,
+  YiiShopImg
+} = imagesAsset;
 
 const initialState = {
   projects: [
     {
       id: uuid(),
       projectName: 'GitHub Finder',
-      projectLink: '/app/src/GitHub_Finder-master/index.html',
+      projectLink: "../modules/GitHub_Finder-master/index.html",
       image: GitHubFinderImg,
       linkTitle: 'Try it'
     },

@@ -2,11 +2,15 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from '../components/layouts/Header';
 import Footer from '../components/layouts/Footer';
+import NotFoundPage from '../components/layouts/NotFoundPage';
 import App from '../components/App';
-import Resume from '../components/Resume';
-import Contact from '../components/Contact';
-import About from '../components/About';
-import NotFoundPage from '../components/NotFoundPage';
+
+
+import Resume from '../pages/Resume';
+import Contact from '../pages/Contact';
+import About from '../pages/About';
+
+import GitHubFinder from '../modules/GitHub_Finder-master/GitHubFinder';
 
 import { Provider } from 'react-redux';
 import store from '../store';
@@ -22,6 +26,7 @@ const AppRouter = () => (
           <Route path="/resume" component={Resume} />
           <Route path="/contact" component={Contact} />
           <Route path="/about" component={About} />
+          <Route path="/modules/GitHub_Finder-master/index.html" component={GitHubFinder} />
           <Route component={NotFoundPage} />
         </Switch>
         <Footer />
