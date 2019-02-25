@@ -1,6 +1,7 @@
 {
   "name": "react-app",
   "version": "2.0.0",
+  "homepage": "http://personal.infokus.org.ua/",
   "private": true,
   "dependencies": {
     "react": "^16.8.2",
