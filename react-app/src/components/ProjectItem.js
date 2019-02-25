@@ -23,7 +23,7 @@ class ProjectItem extends Component {
       <li className="w3-bar">
         <span
           // onClick={true}
-          className="w3-bar-item w3-button w3-white w3-xlarge w3-right"
+          className="w3-bar-item w3-button w3-large w3-right"
         >
           <i
             className="fas fa-times"
