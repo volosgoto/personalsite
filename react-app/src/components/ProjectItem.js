@@ -1,19 +1,23 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class ProjectItem extends Component {
   state = {
     showProjectInfo: false
-  }
+  };
 
   onDeleteClick = id => {
     console.log(this.props.project.id);
   };
 
   render() {
-
-    const { id, projectName, projectLink, image, linkTitle } = this.props.project;
+    const {
+      id,
+      projectName,
+      projectLink,
+      image,
+      linkTitle
+    } = this.props.project;
     const { showProjectInfo } = this.state;
     return (
       <li className="w3-bar">
@@ -23,7 +27,7 @@ class ProjectItem extends Component {
         >
           <i
             className="fas fa-times"
-            style={{ cursor: 'pointer', float: 'right', color: 'teal' }}
+            style={{ cursor: "pointer", float: "right", color: "teal" }}
             onClick={this.onDeleteClick.bind(this, id)}
           />
         </span>
@@ -32,29 +36,29 @@ class ProjectItem extends Component {
           <i
             onClick={() =>
               this.setState({
-                showProjectInfo: !this.state.showProjectInfo
+                showProjectInfo: !showProjectInfo
               })
             }
             className="fas fa-sort-down"
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: "pointer" }}
           />
           <br />
-          {this.state.showProjectInfo && (
+          {showProjectInfo && (
             <div>
-              <span><a href={projectLink}>{linkTitle}</a></span>
+              <span>
+                <a href={projectLink}>{linkTitle}</a>
+              </span>
               <img
                 src={image}
                 alt="project title image"
                 className="w3-bar-item w3-circle w3-hide-small"
-                style={{ width: '85px' }}
+                style={{ width: "85px" }}
               />
             </div>
-
-          )
-          }
+          )}
         </div>
       </li>
-    )
+    );
   }
 }
 
@@ -62,6 +66,4 @@ ProjectItem.propTypes = {
   project: PropTypes.object.isRequired
 };
 
-
 export default ProjectItem;
-
