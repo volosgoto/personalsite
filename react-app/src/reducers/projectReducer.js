@@ -50,6 +50,34 @@ const initialState = {
       projectLink: "https://volosgoto.github.io/JS_Weather/",
       image: JSWeatherImg,
       linkTitle: "Try it"
+    },
+    {
+      id: uuid(),
+      projectName: "TaskList_JS",
+      projectLink: "https://volosgoto.github.io/TaskList_JS/",
+      image: TaskListJSImg,
+      linkTitle: "Try it"
+    },
+    {
+      id: uuid(),
+      projectName: "Yii blog",
+      projectLink: "http://blog.infokus.org.ua/",
+      image: YiiBlogImg,
+      linkTitle: "Try it"
+    },
+    {
+      id: uuid(),
+      projectName: "Yii shop",
+      projectLink: "http://infokus.org.ua/",
+      image: YiiShopImg,
+      linkTitle: "Try it"
+    },
+    {
+      id: uuid(),
+      projectName: "Synprotech Engineering LLC",
+      projectLink: "http://synproeng.com/",
+      image: SynprotechImg,
+      linkTitle: "Try it"
     }
   ]
 };
