@@ -26,7 +26,6 @@ class ProjectItem extends Component {
       <li className="w3-bar">
         <div className="w3-row">
           <span
-            // onClick={true}
             className="w3-bar-item w3-button w3-large w3-right"
             onClick={this.onDeleteClick.bind(this, id)}
           >
@@ -44,24 +43,25 @@ class ProjectItem extends Component {
                 showProjectInfo: !showProjectInfo
               })
             }
-            className="fas fa-sort-down"
+            className="fas fa-angle-down"
             style={{ cursor: "pointer" }}
           />
           <br />
           {showProjectInfo && (
-            <div>
+            <div className="w3-container w3-center">
+              <p className="">{description}</p>
               <img
                 src={image}
                 alt="project title image"
-                className="w3-image w3-card w3-margin-top"
-                style={{ width: "100px" }}
+                className="w3-image w3-border w3-card-4 w3-center"
+                style={{ width: "100%", maxWidth: '400px' }}
               />
 
               {/* <div className="w3-card-4 w3-margin" /> */}
 
-              <p className="">{description}</p>
+
               <div className="w3-rest w3-padding-16 w3-center">
-                <a href={projectLink} className="w3-large">
+                <a href={projectLink} className="w3-button w3-block w3-teal">
                   {linkTitle}
                 </a>
               </div>

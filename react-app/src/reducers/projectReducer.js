@@ -37,7 +37,7 @@ const initialState = {
     {
       id: uuid(),
       projectName: "JS_FETCH_API",
-      projectLink: "",
+      projectLink: "https://volosgoto.github.io/JS_FETCH_API/",
       image: JSFetchAPIMasterImg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, molestiae. Quibusdam molestiae iure, magni ea harum numquam maxime tempore, necessitatibus quasi, tenetur facilis iste possimus et impedit nihil doloremque nulla?",
@@ -94,7 +94,7 @@ const initialState = {
   ]
 };
 
-export default function(state = initialState, action) {
+export default function (state = initialState, action) {
   switch (action.type) {
     case GET_PROJECTS: {
       return { ...state };

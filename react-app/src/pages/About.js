@@ -37,19 +37,19 @@ export default function About() {
               <h2>Certificates</h2>
               <img
                 src={PhpAcademy}
-                className="w3-image w3-card-4 w3-margin w3-hover-shadow"
+                className="w3-image w3-card-4 w3-margin-top w3-hover-shadow"
                 width="400px"
                 alt="PhpAcademy"
               />
               <img
                 src={JavaStart}
-                className="w3-image w3-card-4 w3-margin w3-hover-shadow"
+                className="w3-image w3-card-4 w3-margin-top w3-hover-shadow"
                 width="400px"
                 alt="JavaStart"
               />
               <img
                 src={JavaOop}
-                className="w3-image w3-card-4 w3-margin w3-hover-shadow"
+                className="w3-image w3-card-4 w3-margin-top w3-margin-bottom w3-hover-shadow"
                 width="400px"
                 alt="JavaOop"
               />
