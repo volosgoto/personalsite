@@ -47,7 +47,7 @@ const initialState = {
     {
       id: uuid(),
       projectName: "JS_Weather",
-      projectLink: "https://volosgoto.github.io/JS_Weather/",
+      projectLink: "http://www.weather.infokus.org.ua/",
       image: JSWeatherImg,
       linkTitle: "Try it"
     },
