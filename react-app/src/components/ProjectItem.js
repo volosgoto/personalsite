@@ -26,11 +26,11 @@ class ProjectItem extends Component {
         <span
           // onClick={true}
           className="w3-bar-item w3-button w3-large w3-right"
+          onClick={this.onDeleteClick.bind(this, id)}
         >
           <i
             className="fas fa-times"
             style={{ cursor: "pointer", float: "right", color: "teal" }}
-            onClick={this.onDeleteClick.bind(this, id)}
           />
         </span>
         <div className="w3-bar-item">
