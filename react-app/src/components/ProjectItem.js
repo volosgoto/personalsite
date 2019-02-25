@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { deleteProject } from "../actions/projectActions";
 
 class ProjectItem extends Component {
   state = {
@@ -7,7 +9,7 @@ class ProjectItem extends Component {
   };
 
   onDeleteClick = id => {
-    console.log(this.props.project.id);
+    this.props.deleteProject(id);
   };
 
   render() {
@@ -63,7 +65,11 @@ class ProjectItem extends Component {
 }
 
 ProjectItem.propTypes = {
-  project: PropTypes.object.isRequired
+  project: PropTypes.object.isRequired,
+  deleteProject: PropTypes.func.isRequired
 };
 
-export default ProjectItem;
+export default connect(
+  null,
+  { deleteProject }
+)(ProjectItem);

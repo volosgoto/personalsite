@@ -1,5 +1,5 @@
 import imagesAsset from "../assets/imagesAsset";
-import { GET_PROJECTS } from "../actions/types";
+import { GET_PROJECTS, DELETE_PROJECT } from "../actions/types";
 import uuid from "uuid";
 
 const {
@@ -17,14 +17,14 @@ const {
 const initialState = {
   projects: [
     {
-      id: uuid(),
+      id: 1,
       projectName: "GitHub Finder",
       projectLink: "https://volosgoto.github.io/GitHub_Finder/",
       image: GitHubFinderImg,
       linkTitle: "Try it"
     },
     {
-      id: uuid(),
+      id: 2,
       projectName: "Add_Book_JS",
       projectLink: "https://volosgoto.github.io/Add_Book_JS/",
       image: AddBookJSMasterImg,
@@ -86,6 +86,18 @@ export default function(state = initialState, action) {
   switch (action.type) {
     case GET_PROJECTS: {
       return { ...state };
+    }
+    case DELETE_PROJECT: {
+      return {
+        ...state,
+
+        projects: state.projects.filter(
+          project => {
+            return project.id !== action.payload;
+          }
+          // project.id !== action.payload
+        )
+      };
     }
     default:
       return state;
