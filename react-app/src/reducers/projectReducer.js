@@ -23,6 +23,7 @@ const initialState = {
       image: GitHubFinderImg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur explicabo amet eum optio rerum itaque molestiae molestias blanditiis nobis distinctio tempore vero tempora ullam ut, consectetur velit illo vitae?",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     },
     {
@@ -32,6 +33,7 @@ const initialState = {
       image: AddBookJSMasterImg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus suscipit animi atque aspernatur repudiandae. Aspernatur assumenda placeat necessitatibus autem officia. Explicabo eligendi rerum quam ullam architecto aliquam. Optio, enim.",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     },
     {
@@ -41,6 +43,7 @@ const initialState = {
       image: JSFetchAPIMasterImg,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, molestiae. Quibusdam molestiae iure, magni ea harum numquam maxime tempore, necessitatibus quasi, tenetur facilis iste possimus et impedit nihil doloremque nulla?",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     },
     {
@@ -49,6 +52,7 @@ const initialState = {
       projectLink: "https://volosgoto.github.io/JS_Form_Validation/",
       image: JSFormValidationMasterImg,
       description: "No description",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     },
     {
@@ -57,6 +61,7 @@ const initialState = {
       projectLink: "http://www.weather.infokus.org.ua/",
       image: JSWeatherImg,
       description: "No description",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     },
     {
@@ -65,6 +70,7 @@ const initialState = {
       projectLink: "https://volosgoto.github.io/TaskList_JS/",
       image: TaskListJSImg,
       description: "No description",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     },
     {
@@ -73,6 +79,7 @@ const initialState = {
       projectLink: "http://blog.infokus.org.ua/",
       image: YiiBlogImg,
       description: "No description",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     },
     {
@@ -89,12 +96,13 @@ const initialState = {
       projectLink: "http://synproeng.com/",
       image: SynprotechImg,
       description: "No description",
+      githubLink: "https://github.com/volosgoto/GitHub_Finder",
       linkTitle: "Try it"
     }
   ]
 };
 
-export default function (state = initialState, action) {
+export default function(state = initialState, action) {
   switch (action.type) {
     case GET_PROJECTS: {
       return { ...state };

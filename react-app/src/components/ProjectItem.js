@@ -19,6 +19,7 @@ class ProjectItem extends Component {
       projectLink,
       image,
       description,
+      githubLink,
       linkTitle
     } = this.props.project;
     const { showProjectInfo } = this.state;
@@ -50,18 +51,23 @@ class ProjectItem extends Component {
           {showProjectInfo && (
             <div className="w3-container w3-center">
               <p className="">{description}</p>
+
               <img
                 src={image}
                 alt="project title image"
                 className="w3-image w3-border w3-card-4 w3-center"
-                style={{ width: "100%", maxWidth: '400px' }}
+                style={{ width: "100%", maxWidth: "400px" }}
               />
 
               {/* <div className="w3-card-4 w3-margin" /> */}
 
-
               <div className="w3-rest w3-padding-16 w3-center">
-                <a href={projectLink} className="w3-button w3-block w3-teal">
+                <a href={githubLink} className="w3-button w3-blue-gray">
+                  <i className="fab fa-github fa-lg" /> See on GitHub
+                </a>
+                <br />
+                <br />
+                <a href={projectLink} className="w3-button w3-teal">
                   {linkTitle}
                 </a>
               </div>
