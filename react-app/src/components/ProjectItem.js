@@ -35,7 +35,6 @@ class ProjectItem extends Component {
               style={{ cursor: "pointer", float: "right", color: "teal" }}
             />
           </span>
-
           <div className="w3-third" />
           <span className="w3-large">{projectName}&nbsp;</span>
           <i
@@ -51,18 +50,14 @@ class ProjectItem extends Component {
           {showProjectInfo && (
             <div className="w3-container w3-center">
               <p className="">{description}</p>
-
               <img
                 src={image}
                 alt="project title image"
                 className="w3-image w3-border w3-card-4 w3-center"
                 style={{ width: "100%", maxWidth: "400px" }}
               />
-
-              {/* <div className="w3-card-4 w3-margin" /> */}
-
               <div className="w3-rest w3-padding-16 w3-center">
-                <a href={githubLink} className="w3-button w3-blue-gray">
+                <a href={githubLink} className="w3-button w3-2018-quetzal-green">
                   <i className="fab fa-github fa-lg" /> See on GitHub
                 </a>
                 <br />
