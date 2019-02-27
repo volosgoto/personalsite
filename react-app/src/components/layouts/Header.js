@@ -53,14 +53,14 @@ const Header = () => (
           >
             <i className="fab fa-facebook icon-blue fa-lg" />
           </a>
-          <a
+          {/* <a
             className="icon w3-bar-item w3-button w3-right"
             href="https://plus.google.com/106019659905526550845"
             title="Follow with Google"
             target="_blank"
           >
             <i className="fab fa-google-plus-square fa-lg" />
-          </a>
+          </a> */}
           <a
             className="icon w3-bar-item w3-button w3-right"
             href="https://github.com/volosgoto"
