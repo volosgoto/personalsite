@@ -4,6 +4,7 @@
   "homepage": "http://personal.infokus.org.ua/",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.11.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-iframe": "^1.4.0",

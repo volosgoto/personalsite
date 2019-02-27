@@ -4,9 +4,10 @@ import AppRouter from './routers/AppRouter'
 import * as serviceWorker from './serviceWorker';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'w3-css/w3.css';
-import './css/style.css';
-import './css/main.css';
-import './css/colors.css';
+// import './css/style.css';
+// import './css/main.css';
+// import './css/colors.css';
+import './css/styles.scss';
 
 ReactDOM.render(<AppRouter />, document.getElementById('root'));
 
