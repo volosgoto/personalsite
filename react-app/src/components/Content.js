@@ -17,9 +17,9 @@ class Content extends Component {
         <div className="w3-rest w3-container w3-mobile w3-margin-bottom">
           <div className="outer-box">
             <div className="box-1">
-              <div>
+              <div className="w3-center">
                 <a
-                  className="w3-button w3-center"
+                  className="w3-button"
                   href="https://github.com/volosgoto?tab=repositories"
                   target="_blank"
                 >

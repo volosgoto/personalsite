@@ -4,6 +4,7 @@ import React from "react";
 import Mailto from "react-protected-mailto";
 import GoogleMap from "./GoogleMap";
 
+
 let Contact = props => {
   return (
     <div className="container">
@@ -34,7 +35,12 @@ let Contact = props => {
         </div>
       </div>
       <div className="style-box-1">
+
         <GoogleMap />
+
+        }
+
+
       </div>
     </div>
   );

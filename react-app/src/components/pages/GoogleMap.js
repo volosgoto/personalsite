@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function GoofleMap() {
+export default function GoogleMap() {
   return (
     <div className='w3-container'>
       <iframe
