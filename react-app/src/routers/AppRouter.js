@@ -6,9 +6,9 @@ import NotFoundPage from '../components/layouts/NotFoundPage';
 import App from '../components/App';
 
 
-import Resume from '../pages/Resume';
-import Contact from '../pages/Contact';
-import About from '../pages/About';
+import Resume from '../components/pages/Resume';
+import Contact from '../components/pages/Contact';
+import About from '../components/pages/About';
 
 import GitHubFinder from '../modules/GitHub_Finder-master/GitHubFinder';
 

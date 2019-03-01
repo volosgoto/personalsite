@@ -1,7 +1,8 @@
 import React from "react";
-import PhpAcademy from "../images/certificates/Cert_PHP_Academy_Volosovych_Andrii.jpg";
-import JavaStart from "../images/certificates/Cert_Java_Start_Volosovych_Andrii.png";
-import JavaOop from "../images/certificates/Cert_Java_OOP_Volosovych_Andrii.png";
+// import PhpAcademy from "../images/certificates/Cert_PHP_Academy_Volosovych_Andrii.jpg";
+import PhpAcademy from "../../images/certificates/Cert_PHP_Academy_Volosovych_Andrii.jpg";
+import JavaStart from "../../images/certificates/Cert_Java_Start_Volosovych_Andrii.png";
+import JavaOop from "../../images/certificates/Cert_Java_OOP_Volosovych_Andrii.png";
 
 export default function About() {
   return (
