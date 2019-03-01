@@ -28,19 +28,14 @@ let Contact = props => {
           </div>
           <p />
           <a href="https://join.skype.com/invite/bXprd7VcNmnf">
-            Skype: volosovich82
+            <i className="fab fa-skype"></i> volosovich82
           </a>
           <p>Address: Kyiv, Ukraine</p>
           <p>Phone: +38 (063) 871-51-51</p>
         </div>
       </div>
       <div className="style-box-1">
-
         <GoogleMap />
-
-        }
-
-
       </div>
     </div>
   );

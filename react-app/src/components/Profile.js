@@ -17,9 +17,9 @@ function Profile(props) {
           <img src={image} alt="profile_image" style={{ width: "100%" }} />
           <div className="w3-container">
             <h4>
-              <b>{jobs}</b>
+              <b className="profile">{jobs}</b>
             </h4>
-            <p>{vocation}</p>
+            <h5>{vocation}</h5>
           </div>
         </div>
       </div>

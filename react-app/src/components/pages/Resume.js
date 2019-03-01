@@ -1,4 +1,5 @@
 import React from "react";
+import Mailto from "react-protected-mailto";
 
 export default function Resume() {
   return (
@@ -10,11 +11,19 @@ export default function Resume() {
         <div className="style-box-1">
           <p id="contacts">Phone: +38 (063) 871-51-51</p>
 
-          <p>E-mail: volosovich@i.ua</p>
-          {/* <a onclick="sendMail()" href="#" /> */}
+          <p>
+            Email:{" "}
+            <Mailto
+              email="volosovich@i.ua"
+              headers={
+                ({ subject: "Question from Volosovich A. personal website" },
+                  { cc: "" })
+              }
+            />
+          </p>
 
           <a href="https://join.skype.com/invite/bXprd7VcNmnf" target="_blank">
-            Skype: volosovich82
+            <i class="fab fa-skype"></i> volosovich82
           </a>
           <p>Address: Kyiv, Ukraine</p>
           <p>Phone: +38 (063) 871-51-51</p>
