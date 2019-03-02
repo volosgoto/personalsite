@@ -25,6 +25,15 @@ class ProjectItem extends Component {
     const { showProjectInfo } = this.state;
     return (
       <li className="w3-bar">
+        <span
+          className=" w3-button w3-large w3-right"
+          onClick={this.onDeleteClick.bind(this, id)}
+        >
+          <i
+            className="fas fa-times"
+            style={{ cursor: "pointer", float: "right", color: "teal" }}
+          />
+        </span>
         <span className="w3-large margin-top">{projectName}&nbsp;</span>
         <i
           onClick={() =>
@@ -35,19 +44,6 @@ class ProjectItem extends Component {
           className="fas fa-angle-down"
           style={{ cursor: "pointer" }}
         />
-
-        <span
-          className=" w3-button w3-large w3-right"
-          onClick={this.onDeleteClick.bind(this, id)}
-        >
-          <i
-            className="fas fa-times"
-            style={{ cursor: "pointer", float: "right", color: "teal" }}
-          />
-        </span>
-
-
-        {/* <br /> */}
         {showProjectInfo && (
           <div className="w3-container w3-center">
             <p className="">{description}</p>
@@ -69,7 +65,6 @@ class ProjectItem extends Component {
             </div>
           </div>
         )}
-        {/* </div> */}
       </li>
     );
   }
