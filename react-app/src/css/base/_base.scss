@@ -53,13 +53,6 @@ i {
 }
 
 
-.git-hub
-{
-  font-size: $m-size;
-  color: $link-color;
-  font-weight: 400;
-}
-
 a:hover.git-hub
 {
   font-size: $m-size;
@@ -146,6 +139,31 @@ nav a.w3-button
  
 }
 
+
+
+.icon  {
+ color: $link-color
+}
+
+
+.git-hub
+{
+  font-size: $m-size;
+  color: $link-color;
+  font-weight: 400;
+}
+
+
 .profile {
   color: $profile;
+}
+
+
+.shadow {
+  box-shadow: 2px 2px 10px grey;
+}
+
+img:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }

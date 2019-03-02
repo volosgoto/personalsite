@@ -31,6 +31,7 @@ class Content extends Component {
           <div className="w3-center">
             <h4>Projects</h4>
           </div>
+
           <ul className="w3-ul w3-card-4">
             {
               projects.map(project => (
@@ -38,6 +39,7 @@ class Content extends Component {
               ))
             }
           </ul>
+
         </div>
       </React.Fragment>
     );

@@ -27,7 +27,7 @@ const Header = () => (
           >
             About
           </Link>
-          <button className="w3-bar-item w3-button w3-teal w3-right w3-hide-large w3-hide-medium"
+          <button className="w3-bar-item w3-button w3-black w3-right w3-hide-large w3-hide-medium"
             onClick={navbarCollapse}><i className="fa fa-bars" /></button>
           {/* <a
             // href="javascript:void(0)"
