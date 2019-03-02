@@ -3,9 +3,9 @@ import Mailto from "react-protected-mailto";
 
 export default function Resume() {
   return (
-    <div className="container">
-      <div className="style-box-1">
-        <h3>ANDRII VOLOSOVYCH</h3>
+    <div className="container resume-bg w3-card-4">
+      <div className="style-box-1 w3-margin-top">
+        <h3 className=" w3-padding-16">ANDRII VOLOSOVYCH</h3>
       </div>
       <div className="style-box-1">
         <p id="contacts">Phone: +38 (063) 871-51-51</p>
