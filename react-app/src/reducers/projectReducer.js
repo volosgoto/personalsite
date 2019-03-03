@@ -14,9 +14,6 @@ const {
   YiiShopImg
 } = imagesAsset;
 
-let des =
-  "Pure JavaScript application, ises GitHub API for users search\
-Uses HTML CSS, JavaScript, Bootstrap";
 
 const initialState = {
   projects: [
@@ -109,7 +106,7 @@ const initialState = {
   ]
 };
 
-export default function(state = initialState, action) {
+export default function (state = initialState, action) {
   switch (action.type) {
     case GET_PROJECTS: {
       return { ...state };

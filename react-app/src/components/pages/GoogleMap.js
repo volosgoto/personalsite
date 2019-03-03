@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function GoogleMap() {
+
+
   return (
     <div className='w3-container'>
       <iframe
@@ -15,3 +17,5 @@ export default function GoogleMap() {
     </div>
   );
 }
+
+

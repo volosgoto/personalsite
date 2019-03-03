@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ProfileImg from "../images/andriivolosovych.jpeg";
 
 function Profile(props) {

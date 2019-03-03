@@ -49,7 +49,7 @@ class ProjectItem extends Component {
             <p className="">{description}</p>
             <img
               src={image}
-              alt="project title image"
+              alt="project title"
               className="w3-image w3-border w3-card-4 w3-center"
               style={{ width: "100%", maxWidth: "400px" }}
             />
