@@ -1,33 +1,15 @@
 import React from "react";
-import Mailto from "react-protected-mailto";
+import ContactCard from './ContactCard';
 
 export default function Resume() {
   return (
     <div className="w3-container">
-      <div className="container resume-bg w3-card-4">
-        <div className="style-box-1 w3-margin-top">
-          <h3 className=" w3-padding-16">ANDRII VOLOSOVYCH</h3>
-        </div>
-        <div className="style-box-1">
-          <p id="contacts">Phone: +38 (063) 871-51-51</p>
+      <div className="container resume-bg w3-card-4 w3-margin-top">
 
-          <p>
-            Email:{" "}
-            <Mailto
-              email="volosovich@i.ua"
-              headers={
-                ({ subject: "Question from Volosovich A. personal website" },
-                  { cc: "" })
-              }
-            />
-          </p>
-
-          <a href="https://join.skype.com/invite/bXprd7VcNmnf" target="_blank">
-            <i className="fab fa-skype"></i> volosovich82
-          </a>
-          <p>Address: Kyiv, Ukraine</p>
-          <p>Phone: +38 (063) 871-51-51</p>
+        <div className="w3-padding-16">
+          <ContactCard />
         </div>
+
         <div className="style-box-1">
           <h3>Objective</h3>
         </div>
@@ -291,7 +273,6 @@ export default function Resume() {
             <br />
           </ul>
         </div>
-
       </div>
     </div>
   );
