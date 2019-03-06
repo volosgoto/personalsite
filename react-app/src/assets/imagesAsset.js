@@ -7,6 +7,7 @@ import SynprotechImg from '../images/projects/synprotech.png';
 import TaskListJSImg from '../images/projects/TaskList_JS.png';
 import YiiBlogImg from '../images/projects/yii_blog.png';
 import YiiShopImg from '../images/projects/Yii_shop.png';
+import ClientPanel from '../images/projects/ClientPanel.png';
 
 
 const imagesAsset = {
@@ -18,7 +19,8 @@ const imagesAsset = {
   SynprotechImg,
   TaskListJSImg,
   YiiBlogImg,
-  YiiShopImg
+  YiiShopImg,
+  ClientPanel
 };
 
 export default imagesAsset

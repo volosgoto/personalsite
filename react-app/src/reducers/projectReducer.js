@@ -11,7 +11,8 @@ const {
   SynprotechImg,
   TaskListJSImg,
   YiiBlogImg,
-  YiiShopImg
+  YiiShopImg,
+  ClientPanel
 } = imagesAsset;
 
 
@@ -34,8 +35,9 @@ const initialState = {
       projectName: "Add_Book_JS",
       projectLink: "https://volosgoto.github.io/Add_Book_JS/",
       image: AddBookJSMasterImg,
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus suscipit animi atque aspernatur repudiandae. Aspernatur assumenda placeat necessitatibus autem officia. Explicabo eligendi rerum quam ullam architecto aliquam. Optio, enim.",
+      description: "Pure JavaScript \application,\
+      Uses HTML CSS, JavaScript\, Bootstrap"
+      ,
       githubLink: "https://github.com/volosgoto/Add_Book_JS",
       linkTitle: "Try it"
     },
@@ -45,7 +47,7 @@ const initialState = {
       projectLink: "https://volosgoto.github.io/JS_FETCH_API/",
       image: JSFetchAPIMasterImg,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, molestiae. Quibusdam molestiae iure, magni ea harum numquam maxime tempore, necessitatibus quasi, tenetur facilis iste possimus et impedit nihil doloremque nulla?",
+        "",
       githubLink: "https://github.com/volosgoto/JS_FETCH_API",
       linkTitle: "Try it"
     },
@@ -81,7 +83,7 @@ const initialState = {
       projectName: "Yii blog",
       projectLink: "http://blog.infokus.org.ua/",
       image: YiiBlogImg,
-      description: "No description",
+      description: "Blog app. Using Yii 2, MySQL, Bootstrap",
       githubLink: "https://github.com/volosgoto/yiiblog",
       linkTitle: "Try it"
     },
@@ -91,7 +93,7 @@ const initialState = {
       projectLink: "http://infokus.org.ua/",
       image: YiiShopImg,
       githubLink: "https://github.com/volosgoto/yiidip",
-      description: "No desc",
+      description: "Web-shop app. Using Yii 2, MySQL, Bootstrap",
       linkTitle: "Try it"
     },
     {
@@ -99,10 +101,21 @@ const initialState = {
       projectName: "Synprotech Engineering LLC",
       projectLink: "http://synproeng.com/",
       image: SynprotechImg,
-      description: "No description",
+      description: "Engineering Company web-site. Using Yii, MySQL, W3.CSS framework",
       githubLink: "https://github.com/volosgoto/synprotech",
       linkTitle: "Try it"
+    },
+    {
+      id: uuid(),
+      projectName: "Client Panel",
+      projectLink: "https://reactclientpanel-c8995.firebaseapp.com/",
+      image: ClientPanel,
+      description: "Adnin Client Panel App. Using React, Redux, Firebase, Bootstrap",
+      githubLink: "https://github.com/volosgoto/reactcontactpanelfirebase",
+      linkTitle: "Try it"
     }
+
+
   ]
 };
 
