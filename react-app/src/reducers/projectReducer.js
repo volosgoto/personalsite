@@ -12,9 +12,9 @@ const {
   TaskListJSImg,
   YiiBlogImg,
   YiiShopImg,
-  ClientPanel
+  ClientPanel,
+  ContactList
 } = imagesAsset;
-
 
 const initialState = {
   projects: [
@@ -35,9 +35,9 @@ const initialState = {
       projectName: "Add_Book_JS",
       projectLink: "https://volosgoto.github.io/Add_Book_JS/",
       image: AddBookJSMasterImg,
-      description: "Pure JavaScript \application,\
-      Uses HTML CSS, JavaScript\, Bootstrap"
-      ,
+      description:
+        "Pure JavaScript application,\
+      Uses HTML CSS, JavaScript, Bootstrap",
       githubLink: "https://github.com/volosgoto/Add_Book_JS",
       linkTitle: "Try it"
     },
@@ -46,8 +46,7 @@ const initialState = {
       projectName: "JS_FETCH_API",
       projectLink: "https://volosgoto.github.io/JS_FETCH_API/",
       image: JSFetchAPIMasterImg,
-      description:
-        "",
+      description: "",
       githubLink: "https://github.com/volosgoto/JS_FETCH_API",
       linkTitle: "Try it"
     },
@@ -101,7 +100,8 @@ const initialState = {
       projectName: "Synprotech Engineering LLC",
       projectLink: "http://synproeng.com/",
       image: SynprotechImg,
-      description: "Engineering Company web-site. Using Yii, MySQL, W3.CSS framework",
+      description:
+        "Engineering Company web-site. Using Yii, MySQL, W3.CSS framework",
       githubLink: "https://github.com/volosgoto/synprotech",
       linkTitle: "Try it"
     },
@@ -110,16 +110,24 @@ const initialState = {
       projectName: "Client Panel",
       projectLink: "https://reactclientpanel-c8995.firebaseapp.com/",
       image: ClientPanel,
-      description: "Adnin Client Panel App. Using React, Redux, Firebase, Bootstrap",
+      description:
+        "Adnin Client Panel App. Using React, Redux, Firebase, Bootstrap",
       githubLink: "https://github.com/volosgoto/reactcontactpanelfirebase",
       linkTitle: "Try it"
+    },
+    {
+      id: uuid(),
+      projectName: "Contact List",
+      projectLink: "http://panel.knifoman.com/",
+      image: ContactList,
+      description: "Contact List App. Using React, Redux, Bootstrap",
+      githubLink: "https://github.com/volosgoto/contactmanager_redux",
+      linkTitle: "Try it"
     }
-
-
   ]
 };
 
-export default function (state = initialState, action) {
+export default function(state = initialState, action) {
   switch (action.type) {
     case GET_PROJECTS: {
       return { ...state };
