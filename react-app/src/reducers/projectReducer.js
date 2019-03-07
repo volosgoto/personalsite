@@ -120,7 +120,8 @@ const initialState = {
       projectName: "Contact List",
       projectLink: "http://panel.knifoman.com/",
       image: ContactList,
-      description: "Contact List App. Using React, Redux, Bootstrap",
+      description:
+        "Contact List App. Using React, Redux, Bootstrap, JSONPlaceholder REST API",
       githubLink: "https://github.com/volosgoto/contactmanager_redux",
       linkTitle: "Try it"
     }
