@@ -1,11 +1,10 @@
 import React from "react";
-import ContactCard from './ContactCard';
+import ContactCard from "./ContactCard";
 
 export default function Resume() {
   return (
     <div className="w3-container">
       <div className="container resume-bg w3-card-4 w3-margin-top">
-
         <div className="w3-padding-16">
           <ContactCard />
         </div>
@@ -15,9 +14,7 @@ export default function Resume() {
         </div>
         <div className="style-box-2">
           <ul>
-            <li>
-              WEB developer
-            </li>
+            <li>WEB developer</li>
           </ul>
         </div>
         <div className="style-box-1">
@@ -28,40 +25,28 @@ export default function Resume() {
             <i>Professional skills:</i>
           </p>
           <ul>
-            <li>
-              Experience in PHP, Yii 2.
-            </li>
-            <li>
-              Validation and verification of technical documentation
-            </li>
+            <li>Experience in PHP, Yii 2</li>
+            <li>Validation and verification of technical documentation</li>
             <li>
               Experience in different types of testing: Black box, Gray box,
               Usability, Functional, Ad-hoc, Regression, GUI testing, Smoke.
               Testing of Web­based software and Windows applications
             </li>
-            <li>
-              Skills in Test Cases writing and Bug Reporting
-            </li>
+            <li>Skills in Test Cases writing and Bug Reporting</li>
             <li>
               Experience in bug tracking using most popular Bug Tracking Systems
             </li>
-            <li>
-              Understanding of Software Development Life Cycle
-            </li>
+            <li>Understanding of Software Development Life Cycle</li>
             <li>
               Installation and configuration of operating systems, virtual
               machines, drivers, etc.
             </li>
-            <li>
-              Scrum/Agile experience
-            </li>
+            <li>Scrum/Agile experience</li>
             <li>
               Strong team player with ability to work productively in a team as
               well as individually
             </li>
-            <li>
-              Focused on the result
-            </li>
+            <li>Focused on the result</li>
             <li>
               Proven organizational, analytical, and communication skills
               (verbal and written)
@@ -76,35 +61,24 @@ export default function Resume() {
             </li>
             <li>
               Problem solving, customer issues satisfaction. Motivated
-              to develop yourself and solve complex tasks.
+              to develop yourself and solve complex tasks
             </li>
           </ul>
           <p className="padding-left">
             <i>Technical skills:</i>
           </p>
           <ul>
+            <li>Platforms: Ubuntu, Windows</li>
+            <li>Browsers: Chrome, Firefox, Internet Explorer, Safari, Opera</li>
             <li>
-              Platforms: Ubuntu, Windows
+              Programming: JavaScript, Bootstrap, W3.CSS framework, React,
+              JQuery, PHP 7, OOP, Yii 2, Webpack, NPM, Yarn, Composer, SQL,
+              HTML, CSS(Sass, FlexBox, Responsive Design), Git
             </li>
-            <li>
-              Browsers: Chrome, Firefox, Internet Explorer, Safari, Opera
-            </li>
-            <li>
-              Programming: JavaScript, React, JQuery, PHP 7, OOP, Yii 2,
-              Webpack, NPM, Composer, SQL, HTML, CSS, Git
-            </li>
-            <li>
-              RDBMS: MySQL, phpMyAdmin
-            </li>
-            <li>
-              Test Automation: PHPUnit, Chai, Mocha
-            </li>
-            <li>
-              Bug Tracking: Jira{" "}
-            </li>
-            <li>
-              Web Testing Tools: Firebug, Chrome DevTools{" "}
-            </li>
+            <li>RDBMS: MySQL, phpMyAdmin</li>
+            <li>Test Automation: PHPUnit, Chai, Mocha</li>
+            <li>Bug Tracking: Jira </li>
+            <li>Web Testing Tools: Firebug, Chrome DevTools </li>
             <li>
               Other: Install and configure Apache web-server, Git, Adobe
               Dreamweaver, PHPBB, SMF, Joomla CMS, WordPress, MS Office,
@@ -115,15 +89,9 @@ export default function Resume() {
             <i>Languages:</i>
           </p>
           <ul>
-            <li>
-              English – upper-intermediate
-            </li>
-            <li>
-              Russian – native
-            </li>
-            <li>
-              Ukrainian – native
-            </li>
+            <li>English – upper-intermediate</li>
+            <li>Russian – native</li>
+            <li>Ukrainian – native</li>
           </ul>
         </div>
         <div className="style-box-1">
@@ -149,9 +117,7 @@ export default function Resume() {
               </a>
               <p>Own MVC Framework</p>
             </li>
-            <li>
-              Resume Builder project
-            </li>
+            <li>Resume Builder project</li>
             <ul>
               <li>
                 Performed manual black box testing from Beta­version to the
@@ -180,9 +146,7 @@ export default function Resume() {
               </li>
             </ul>
 
-            <li>
-              Energy Telecom project
-            </li>
+            <li>Energy Telecom project</li>
             <ul>
               <li>
                 Tested web­based application created for collecting data about
@@ -217,9 +181,7 @@ export default function Resume() {
                 testing
               </li>
             </ul>
-            <li>
-              Web testing
-            </li>
+            <li>Web testing</li>
             <ul>
               <li>http://knifoman.com</li>
               <li>http://testpo2.cleardesign.com.ua</li>
@@ -267,9 +229,7 @@ export default function Resume() {
         </div>
         <div className="style-box-2">
           <ul>
-            <li>
-              Married, child, driver license
-            </li>
+            <li>Married, child, driver license</li>
             <br />
           </ul>
         </div>

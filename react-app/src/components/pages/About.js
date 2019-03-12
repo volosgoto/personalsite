@@ -21,7 +21,7 @@ export default function About() {
             </div>
             <ul className="w3-ul w3-card w3-center w3-margin">
               <li>
-                HTML/CSS (Sass, FlexBox, BootStrap, Responsive Design,
+                HTML/CSS (Sass, FlexBox, Bootstrap, Responsive Design,
                 Cross-Browser Development);
               </li>
               <li>JavaScript (ES6/ES5);</li>
