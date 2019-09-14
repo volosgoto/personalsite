@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8cb4d24e697843b3de71",
-    "url": "/personalsite/static/css/main.6bd76e01.chunk.css"
+    "revision": "675f5eae76f8c67c0e4a",
+    "url": "/personalsite/static/css/main.35ba89fe.chunk.css"
   },
   {
-    "revision": "8cb4d24e697843b3de71",
-    "url": "/personalsite/static/js/main.8cb4d24e.chunk.js"
+    "revision": "675f5eae76f8c67c0e4a",
+    "url": "/personalsite/static/js/main.675f5eae.chunk.js"
   },
   {
     "revision": "ef055ae2a65985f12d07",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/personalsite/static/media/404_page.d0d45cd1.png"
   },
   {
-    "revision": "0e98a235fba4f08007f495b96cf81f8a",
-    "url": "/personalsite/static/media/andriivolosovych.0e98a235.jpeg"
+    "revision": "e8a2030d51be6df306462175927eb9bb",
+    "url": "/personalsite/static/media/andrii.e8a2030d.JPG"
   },
   {
     "revision": "9d9b85b52dd3a0c93080996eb79a64fd",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/personalsite/static/media/fa-solid-900.6ed5e3bc.svg"
   },
   {
-    "revision": "bbfe315ef1b63265e594e18ae001d4ae",
+    "revision": "ac41e2b046aeed0daa925997cdc6ca5a",
     "url": "/personalsite/index.html"
   }
 ];
