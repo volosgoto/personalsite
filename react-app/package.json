@@ -1,7 +1,7 @@
 {
   "name": "react-app",
   "version": "2.0.0",
-  "homepage": "http://volosgoto.github.io/personalsite",
+ 
   "private": true,
   "dependencies": {
     "node-sass": "^4.12.0",
