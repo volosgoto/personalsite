@@ -17,15 +17,17 @@ import store from "../store";
 const AppRouter = () => (
   <Provider store={store}>
     <BrowserRouter>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/about" component={About} />
-        <Route component={NotFoundPage} />
-      </Switch>
-      <Footer />
+      <div>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={App} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/about" component={About} />
+          <Route component={NotFoundPage} />
+        </Switch>
+        <Footer />
+      </div>
     </BrowserRouter>
   </Provider>
 );
