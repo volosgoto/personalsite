@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/personalsite/static/css/main.b1fcde25.chunk.css",
-    "main.js": "/personalsite/static/js/main.235a36d9.chunk.js",
-    "main.js.map": "/personalsite/static/js/main.235a36d9.chunk.js.map",
+    "main.js": "/personalsite/static/js/main.c7f8c966.chunk.js",
+    "main.js.map": "/personalsite/static/js/main.c7f8c966.chunk.js.map",
     "runtime-main.js": "/personalsite/static/js/runtime-main.402a00b0.js",
     "runtime-main.js.map": "/personalsite/static/js/runtime-main.402a00b0.js.map",
     "static/css/2.56f7e923.chunk.css": "/personalsite/static/css/2.56f7e923.chunk.css",
-    "static/js/2.9d18e8c9.chunk.js": "/personalsite/static/js/2.9d18e8c9.chunk.js",
-    "static/js/2.9d18e8c9.chunk.js.map": "/personalsite/static/js/2.9d18e8c9.chunk.js.map",
+    "static/js/2.d8e94ff6.chunk.js": "/personalsite/static/js/2.d8e94ff6.chunk.js",
+    "static/js/2.d8e94ff6.chunk.js.map": "/personalsite/static/js/2.d8e94ff6.chunk.js.map",
     "index.html": "/personalsite/index.html",
-    "precache-manifest.ce5197c270f8c44cde7fa01374dc7d33.js": "/personalsite/precache-manifest.ce5197c270f8c44cde7fa01374dc7d33.js",
+    "precache-manifest.be7d6647034d57a1eec87266a1925f9f.js": "/personalsite/precache-manifest.be7d6647034d57a1eec87266a1925f9f.js",
     "service-worker.js": "/personalsite/service-worker.js",
     "static/css/2.56f7e923.chunk.css.map": "/personalsite/static/css/2.56f7e923.chunk.css.map",
     "static/css/main.b1fcde25.chunk.css.map": "/personalsite/static/css/main.b1fcde25.chunk.css.map",
-    "static/js/2.9d18e8c9.chunk.js.LICENSE": "/personalsite/static/js/2.9d18e8c9.chunk.js.LICENSE",
+    "static/js/2.d8e94ff6.chunk.js.LICENSE": "/personalsite/static/js/2.d8e94ff6.chunk.js.LICENSE",
     "static/media/404_page.png": "/personalsite/static/media/404_page.d0d45cd1.png",
     "static/media/Add Book.png": "/personalsite/static/media/Add Book.4e3828c8.png",
     "static/media/Cert_Java_OOP_Volosovych_Andrii.png": "/personalsite/static/media/Cert_Java_OOP_Volosovych_Andrii.fcbefbeb.png",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.402a00b0.js",
     "static/css/2.56f7e923.chunk.css",
-    "static/js/2.9d18e8c9.chunk.js",
+    "static/js/2.d8e94ff6.chunk.js",
     "static/css/main.b1fcde25.chunk.css",
-    "static/js/main.235a36d9.chunk.js"
+    "static/js/main.c7f8c966.chunk.js"
   ]
 }
