@@ -91,7 +91,7 @@ const initialState = {
     },
 
     {
-      id: 6,
+      id: 7,
       projectName: "Pomonadistiling",
       projectLink: "https://pomonadistilling.co/",
       image: Pomonadistiling,
