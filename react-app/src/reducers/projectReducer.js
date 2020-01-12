@@ -26,7 +26,7 @@ const {
 const initialState = {
   projects: [
     {
-      id: 1,
+      id: uuid(),
       projectName: "Adacap",
       projectLink: "https://www.adacap.com/",
       image: AdacapImg,
@@ -37,7 +37,7 @@ const initialState = {
     },
 
     {
-      id: 2,
+      id: uuid(),
       projectName: "Csossroads",
       projectLink: "https://crossroadsantigua.org/",
       image: CrossroadsImg,
@@ -48,7 +48,7 @@ const initialState = {
     },
 
     {
-      id: 3,
+      id: uuid(),
       projectName: "Eclinacal",
       projectLink: "https://www.eclinicalsol.com/",
       image: EclinacalImg,
@@ -59,7 +59,7 @@ const initialState = {
     },
 
     {
-      id: 4,
+      id: uuid(),
       projectName: "Missionbio",
       projectLink: "https://missionbio.com/",
       image: MissionbioImg,
@@ -70,7 +70,7 @@ const initialState = {
     },
 
     {
-      id: 5,
+      id: uuid(),
       projectName: "Trovagene",
       projectLink: "https://trovageneoncology.com/",
       image: TrovageneImg,
@@ -81,7 +81,7 @@ const initialState = {
     },
 
     {
-      id: 6,
+      id: uuid(),
       projectName: "Viazoi",
       projectLink: "https://viazoi.com",
       image: ViazoiImg,
@@ -91,7 +91,7 @@ const initialState = {
     },
 
     {
-      id: 7,
+      id: uuid(),
       projectName: "Pomonadistiling",
       projectLink: "https://pomonadistilling.co/",
       image: Pomonadistiling,
