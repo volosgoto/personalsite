@@ -1,29 +1,22 @@
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 8px 8px;
-  height: 110px;
+  min-height: 130px;
+}
 
- }
-
-.footer-box{
+.footer-box {
   display: block;
-  flex: 1; 
+  flex: 1;
   height: 20px;
- 
 }
 
-
-.git-hub
-{
-  color:$link-color;
+.git-hub {
+  color: $link-color;
 }
 
-
-.copywrite{
+.copywrite {
   font-size: 12px;
 }
-
-

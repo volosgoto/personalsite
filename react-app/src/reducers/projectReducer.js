@@ -3,6 +3,13 @@ import { GET_PROJECTS, DELETE_PROJECT } from "../actions/types";
 import uuid from "uuid";
 
 const {
+  AdacapImg,
+  CrossroadsImg,
+  EclinacalImg,
+  MissionbioImg,
+  TrovageneImg,
+  ViazoiImg,
+  Pomonadistiling,
   GitHubFinderImg,
   AddBookJSMasterImg,
   JSFetchAPIMasterImg,
@@ -20,6 +27,82 @@ const initialState = {
   projects: [
     {
       id: 1,
+      projectName: "Adacap",
+      projectLink: "https://www.adacap.com/",
+      image: AdacapImg,
+      description:
+        "AAA is an innovative medicines company focused on the development of products for targeted radioligand therapy and precision radioligand imaging.",
+      githubLink: "Skynix LLC repository",
+      linkTitle: "Try it"
+    },
+
+    {
+      id: 2,
+      projectName: "Csossroads",
+      projectLink: "https://crossroadsantigua.org/",
+      image: CrossroadsImg,
+      description:
+        "At Crossroads Centre Antigua, we view addiction as a compulsive dependence on alcohol, substances, people or behaviors, despite harmful consequences. Addiction is a condition that is progressive unless it is properly treated, and our model of treatment is a proven method that works.",
+      githubLink: "Skynix LLC repository",
+      linkTitle: "Try it"
+    },
+
+    {
+      id: 3,
+      projectName: "Eclinacal",
+      projectLink: "https://www.eclinicalsol.com/",
+      image: EclinacalImg,
+      description:
+        "Committed to one mission: To make clinical research data acquisition and analysis easy and intelligent to help bring new treatments to patients faster",
+      githubLink: "Skynix LLC repository",
+      linkTitle: "Try it"
+    },
+
+    {
+      id: 4,
+      projectName: "Missionbio",
+      projectLink: "https://missionbio.com/",
+      image: MissionbioImg,
+      description:
+        "Our mission is to help researchers and clinicians unlock single-cell biology to enable the discovery, development, and delivery of precision medicine.",
+      githubLink: "Skynix LLC repository",
+      linkTitle: "Try it"
+    },
+
+    {
+      id: 5,
+      projectName: "Trovagene",
+      projectLink: "https://trovageneoncology.com/",
+      image: TrovageneImg,
+      description:
+        "We are a clinical-stage oncology therapeutics company, taking a PCMTM approach to develop drugs that target cell division (mitosis) for the treatment of leukemias, lymphomas and solid tumor cancers.",
+      githubLink: "Skynix LLC repository",
+      linkTitle: "Try it"
+    },
+
+    {
+      id: 6,
+      projectName: "Viazoi",
+      projectLink: "https://viazoi.com",
+      image: ViazoiImg,
+      description: "Wellness Programs Based on Your Unique Biology",
+      githubLink: "Skynix LLC repository",
+      linkTitle: "Try it"
+    },
+
+    {
+      id: 6,
+      projectName: "Pomonadistiling",
+      projectLink: "https://pomonadistilling.co/",
+      image: Pomonadistiling,
+      description:
+        "Distiling company. We aren’t just about making spirits, we’re about sharing the experience of handcrafted creation that is made to be celebrated",
+      githubLink: "Skynix LLC repository",
+      linkTitle: "Try it"
+    },
+
+    {
+      id: uuid(),
       projectName: "GitHub Finder",
       projectLink: "https://volosgoto.github.io/GitHub_Finder/",
       image: GitHubFinderImg,
@@ -31,7 +114,7 @@ const initialState = {
       linkTitle: "Try it"
     },
     {
-      id: 2,
+      id: uuid(),
       projectName: "Add_Book_JS",
       projectLink: "https://volosgoto.github.io/Add_Book_JS/",
       image: AddBookJSMasterImg,

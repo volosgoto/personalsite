@@ -14,7 +14,7 @@ export default function Resume() {
         </div>
         <div className="style-box-2">
           <ul>
-            <li>WEB developer</li>
+            <li>Front-End developer</li>
           </ul>
         </div>
         <div className="style-box-1">
@@ -25,18 +25,19 @@ export default function Resume() {
             <i>Professional skills:</i>
           </p>
           <ul>
-            <li>Experience in PHP, Yii 2</li>
+            <li>
+              Experience in HTML, CSS, Javascript, JQuery, React, Redux, PHP,
+              Yii 2, WordPress, Magento
+            </li>
             <li>Validation and verification of technical documentation</li>
+            <li>Understanding of Software Development Life Cycle</li>
             <li>
               Experience in different types of testing: Black box, Gray box,
               Usability, Functional, Ad-hoc, Regression, GUI testing, Smoke.
               Testing of Web­based software and Windows applications
             </li>
             <li>Skills in Test Cases writing and Bug Reporting</li>
-            <li>
-              Experience in bug tracking using most popular Bug Tracking Systems
-            </li>
-            <li>Understanding of Software Development Life Cycle</li>
+            <li>Experience in bug tracking using Jira</li>
             <li>
               Installation and configuration of operating systems, virtual
               machines, drivers, etc.
@@ -68,22 +69,20 @@ export default function Resume() {
             <i>Technical skills:</i>
           </p>
           <ul>
-            <li>Platforms: Ubuntu, Windows</li>
-            <li>Browsers: Chrome, Firefox, Internet Explorer, Safari, Opera</li>
             <li>
-              Programming: JavaScript, Bootstrap, W3.CSS framework, React,
-              JQuery, PHP 7, OOP, Yii 2, Webpack, NPM, Yarn, Composer, SQL,
-              HTML, CSS(Sass, FlexBox, Responsive Design), Git
+              Programming: JavaScript, JQuery, React, Redux, Bootstrap, W3.CSS
+              framework, React, JQuery, PHP 7, OOP, Yii 2, Webpack, NPM, Yarn,
+              Composer, SQL, HTML, CSS(Sass, FlexBox, Responsive Design), Git
             </li>
             <li>RDBMS: MySQL, phpMyAdmin</li>
             <li>Test Automation: PHPUnit, Chai, Mocha</li>
             <li>Bug Tracking: Jira </li>
             <li>Web Testing Tools: Firebug, Chrome DevTools </li>
             <li>
-              Other: Install and configure Apache web-server, Git, Adobe
-              Dreamweaver, PHPBB, SMF, Joomla CMS, WordPress, MS Office,
-              PhotoShop, Power Point, MatchCad, AutoCAD, Aspen HYSYS
+              Other: Install and configure Apache web-server, Composer, Git,
+              PHPBB, SMF, Joomla CMS, WordPress, MS Office, PhotoShop
             </li>
+            <li>Platforms: Mac OS, Linux Ubuntu, Windows</li>
           </ul>
           <p className="padding-left">
             <i>Languages:</i>
@@ -95,98 +94,42 @@ export default function Resume() {
           </ul>
         </div>
         <div className="style-box-1">
-          <h3>Experience</h3>
+          <h3>Work Experience</h3>
         </div>
         <div className="style-box-2">
           <ul>
             <li>
-              <a href="https://github.com/volosgoto">github.com/volosgoto</a>
-              <p>GitHub profile</p>
+              <p>
+                June 2019 - present. Skynix LLC, Front-end developer{" "}
+                <a href="https://skynix.co/">Skynix LLC</a>
+              </p>
             </li>
-            <li>
-              <a href="http://infokus.org.ua">infokus.org.ua</a>
-              <p>Yii2, framework based online shop</p>
-            </li>
-            <li>
-              <a href="http://blog.infokus.org.ua">blog.infokus.org.ua</a>
-              <p>Yii2, framework based blog</p>
-            </li>
-            <li>
-              <a href="https://github.com/volosgoto/myphpcms.loc">
-                github.com/volosgoto/myphpcms.loc
-              </a>
-              <p>Own MVC Framework</p>
-            </li>
-            <li>Resume Builder project</li>
-            <ul>
-              <li>
-                Performed manual black box testing from Beta­version to the
-                final release
-              </li>
-              <li>
-                Performed validation and verification of the specification
-              </li>
-              <li>
-                Wrote high­quality test cases based on technical documentation
-              </li>
-              <li>Executed test cases and reported found bugs via Jira</li>
-              <li>
-                Tested software in different environment using a Virtual Machine
-              </li>
-              <li>
-                Validated application’s GUI for compliance with Usability
-                guidelines published by Microsoft
-              </li>
-              <li>
-                Participated in cross­platform (Windows 8/7/Vista/XP) testing
-              </li>
-              <li>
-                Executed Ad-hoc and exploratory test procedures at all the
-                stages of SDLC
-              </li>
-            </ul>
 
-            <li>Energy Telecom project</li>
-            <ul>
-              <li>
-                Tested web­based application created for collecting data about
-                contact information and telecommunication/energy services needs
-                of a person (household)
-              </li>
-              <li>
-                Validated and verified a technical documentation for
-                contradictions, ambiguities and incompleteness
-              </li>
-              <li>
-                Developed test cases for functional testing of the application
-                (Black box)
-              </li>
-              <li>
-                Validated application’s GUI for compliance with Usability
-                guidelines published by US Department of Health and Human
-                Services
-              </li>
-              <li>
-                Researched software anomalies and defects to minimize number of
-                steps to reproduce the problem.
-              </li>
-              <li>
-                Wrote easy­to­reproduce bug reports and reported them via Jira
-              </li>
-              <li>
-                Researched the saving of user data in the emailed sales lead
-              </li>
-              <li>
-                Made cross­browser (Chrome, MSIE, Firefox, Opera, Safari)
-                testing
-              </li>
-            </ul>
-            <li>Web testing</li>
-            <ul>
-              <li>http://knifoman.com</li>
-              <li>http://testpo2.cleardesign.com.ua</li>
-              <li>http://biz-gid.ru</li>
-            </ul>
+            <li>
+              <p>
+                March 2018, Frelanser{" "}
+                <a href="https://www.upwork.com/o/profiles/users/_~01eae4a4ffe0236259/">
+                  - Upwork profile
+                </a>
+              </p>
+            </li>
+
+            <li>
+              <p>
+                GitHub profile{" "}
+                <a href="https://github.com/volosgoto">
+                  - github.com/volosgoto
+                </a>
+              </p>
+            </li>
+            <li>
+              <p>
+                Own MVC Framework{" "}
+                <a href="https://github.com/volosgoto/myphpcms.loc">
+                  - github.com/volosgoto/myphpcms.loc
+                </a>
+              </p>
+            </li>
           </ul>
         </div>
         <div className="style-box-1">
