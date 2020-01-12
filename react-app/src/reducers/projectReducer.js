@@ -38,7 +38,7 @@ const initialState = {
 
     {
       id: uuid(),
-      projectName: "Csossroads",
+      projectName: "Crossroads",
       projectLink: "https://crossroadsantigua.org/",
       image: CrossroadsImg,
       description:
@@ -49,7 +49,7 @@ const initialState = {
 
     {
       id: uuid(),
-      projectName: "Eclinacal",
+      projectName: "Eclinical",
       projectLink: "https://www.eclinicalsol.com/",
       image: EclinacalImg,
       description:
