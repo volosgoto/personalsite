@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 import NotFoundPage from "../components/layouts/NotFoundPage";
@@ -16,7 +16,7 @@ import store from "../store";
 
 const AppRouter = () => (
   <Provider store={store}>
-    <BrowserRouter>
+    <Router>
       <div>
         <Header />
         <Switch>
@@ -28,7 +28,7 @@ const AppRouter = () => (
         </Switch>
         <Footer />
       </div>
-    </BrowserRouter>
+    </Router>
   </Provider>
 );
 
